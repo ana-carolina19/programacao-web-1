@@ -1,0 +1,32 @@
+Index.html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Relativo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="limitador">
+    O Parque dos Dinossauros está aberto para visitação, e o público tem a chance de ver de perto as mais diversas espécies. Porém, um desses animais, resultado de experiência genética, desenvolve alta inteligência e se torna uma ameaça para todos.
+    </div>
+</body>
+</html>
+
+Estilo.css
+html, body{
+    background: brown;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.limitador{
+    background-color: white;
+    margin: 0 auto;
+    padding: 30px;
+    width: 1000px;
+    height: 100%;
+}
